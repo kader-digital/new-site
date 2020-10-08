@@ -1,6 +1,7 @@
 html, body {
 
 	width: 74%;
+	background: black;
 	margin: 0 auto 0 auto;
 	padding: 0;
 	height: 1024px;
@@ -35,7 +36,8 @@ html, body {
 
 .header-wrapper {
 
-	background: orange;
+	background: blue;
+	z-index: 1;
 
 }
 
@@ -44,9 +46,9 @@ html, body {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	background: salmon;
-	padding: 10px;
+	padding: 5px 10px 5px 10px;
 	text-align: center;
-	grid-gap: 1rem;
+	grid-gap: 0.3rem;
 	
 }
 
@@ -54,7 +56,7 @@ html, body {
 
 	opacity: 70%;
 	border-width: 2px;
-	padding: 10px;
+	padding: 5x;
 	margin-bottom: 10px;
 	margin-top: 10px;
 	grid-gap: 1em;
@@ -65,23 +67,22 @@ html, body {
 .footer-wrapper {
 	
 	background: salmon;	
-	padding: 20px 12px;
 	padding-bottom: 0px;
-	position: absolute;
-	margin-left: 0px;
-	padding-left: 0px;
-	width: 53.8%;
+	position: fixed;
+	margin: 0px;
+	padding: 0px;
+	width: 54.6%;
 	bottom: 0;
 
 }
 
 .footer-menu-wrapper ul li a {
 
-	opacity: 55%;
+	opacity: 85%;
 	color: lightgrey;
 	font-size: 0.7%;
-	justify-content: space-around;
 	margin-right: 20px;
+	padding-top: 0px;
 	
 }
 
@@ -89,11 +90,10 @@ html, body {
 
 	font-size: 10px;
 	text-align: right;
-	margin-left: 370px;
-	padding: 5px;
+	margin-left: 350px;
+	margin-top: 0;
+	padding: 0px 5px 0px 5px;
 	color: gray;
-	opacity: 10%;
-	display: inline-block;
 	
 }
 
@@ -102,7 +102,7 @@ ul li a {
 
 	text-decoration: none;
 	color: black;
-	padding: 20px 20px 20px 0px;
+	padding: 10px 20px 20px 0px;
 	margin: auto;
 
 }
@@ -130,16 +130,15 @@ h1 {
 h3 {
 
 	background: lightpink;
-	padding: 10px;
+	padding: 5px;
 	margin: 0px;
 
 }
 
 h4 {
 
-	background: lightyellow;
+	padding: 10px;
 	margin: 0;
-	padding: 5px;
 
 }
 
@@ -200,22 +199,31 @@ legend {
 #page-list-wrapper {
 	
 	justify-content: center;
-	margin-left: 26%;
+	margin-left: 24%;
 	list-style-type: none;
+	display: absolute;
+	margin-top: 120px;
+	margin-bottom: 0px;
 
 }
 
 #page-list-wrapper a {
 	
 	text-align: center;
-	margin: auto;
-	float: center;
+	display: inline-block;
+	bottom: 110px;
+	height: 200px;
 
 }
 
 .form-wrapper {
 
 	background: lightpink;
+	display: inline-block;
+	position: fixed;
+	bottom: 35px;
+	height: 125px;
+	width: 54.6%;
 
 }
 
@@ -245,5 +253,7 @@ a:hover {
 
 }
 
-
+.grid-header {
+	background: white;
+}
 
