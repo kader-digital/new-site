@@ -60,10 +60,9 @@ html, body {
 .footer-wrapper {
 	
 	background: tomato;	
-	position: fixed;
+	position: absolute;
 	width: 54.6%;
-	bottom: -22px;
-	padding: 5px 0px 5px 0px;
+	bottom: 0px;
 	display: table-cell;
 
 }
@@ -72,15 +71,15 @@ html, body {
 
 	opacity: 65%;
 	font-size: 0.7%;
-	margin-left: 10px;
+	margin-left: 15px;
 	
 }
 
 #trademark {
 
 	font-size: 10px;
-	margin: 0px 0px 10px 340px;
-	padding: 5px 5px 5px 0px;
+	margin: 0px 0px 0px 575px;
+	padding: 5px 5px 5px 2px;
 	color: gray;
 	float: right;
 	text-align: right;
@@ -92,8 +91,8 @@ ul li a {
 
 	text-decoration: none;
 	color: black;
-	padding: 10px 10px 10px 0px;
-	margin: auto;
+	padding: 0px 10px 0px 0px;
+	margin: 0px auto;
 
 }
 ul li a:hover {
