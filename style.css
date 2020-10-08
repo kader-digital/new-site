@@ -1,0 +1,48 @@
+html {
+	width: 67%;
+	height: 73%;
+	margin: 0px auto 0px auto;
+	padding: 0px 0px 0px 0px;
+	font-family: Arial;
+}
+.wrapper {
+	border-style: none solid none solid;
+	border-width: 1px;
+	box-shadow: 1px 1px 1px 1px;
+	background: lightcyan;
+	display: grid;
+	grid-template-rows: 1fr 3fr 2fr;
+	grid-template-columns: 1fr;
+}
+.grid-wrapper {
+	grid-column: 1fr 1fr;
+	grid-row: 1fr 1fr;
+	grid-gap: 50px;
+}
+ul li a {
+	text-decoration: none;
+	color: black;
+	padding: 20px 20px 20px 0px;
+}
+ul li a:hover {
+	color: pink;
+	opacity: 50%;
+}
+ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 5px 10px 10px 10px;
+
+}
+p {
+	padding: 10px;	
+	text-indent: 20px;
+	background: #fff;
+	opacity: 70%;
+	margin: 20px;
+	border-style: ridge;
+	border-radius: 20px;
+}
+h1 {
+	padding: 15px 10px 5px 15px;
+}
