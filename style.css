@@ -1,58 +1,66 @@
 html, body {
-	width: 73%;
+	width: 74%;
 	margin: 0 auto 0 auto;
 	padding: 0;
-	font-family: Arial;
+	height: 1024px;
+
+	@import url("https://use.typekit.net/xcx8ues.css");
+	font-family: poppins, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 .wrapper {
+
 	height: 100%;
 	border-style: none solid none solid;
 	border-width: 1px;
-	background: #a6f;
+	background: tomato;
+}
+
+.donation-wrapper {
+
+	background: silver;
+	
 }
 
 .header-wrapper {
 	background: orange;
 }
 
-.menu-wrapper {
-	padding: 10px 0px 10px 0px;
-	margin: 0;
-	background: gold;
-}
-
 .main-wrapper {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-	grid-gap: 0.33rem;
-	margin: 12px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	background: orangered;
+	padding: 10px;
+	text-align: center;
+	grid-gap: 1rem;
+	
 }
 
 .grid-wrapper {
-	padding: 5px;	
-	text-indent: 15px;
-	background: #ae9;
-	margin: 10px 5px 5px 5px;
+	background: #c9a;
 	opacity: 70%;
-	border-style: solid;
 	border-width: 2px;
-	border-color: yellowgreen;
+	padding: 10px;
+	margin: 10px;
+	grid-gap: 1em;
 	border-radius: 1px;
 	
 }
 
 .footer-wrapper {
 	
-	background: #cdf;	
-	padding-top: 3px;
+	background: lightblue;	
+	padding: 20px 12px;
+	padding-bottom: 0px;
+	position: absolute;
+	margin-left: 0px;
+	padding-left: 0px;
+	width: 53.8%;
+	bottom: 0;
 
 }
 
-.footer-menu-wrapper {
-
-	display: inline-block;
-
-}
 
 #trademark {
 
@@ -70,6 +78,7 @@ ul li a {
 	text-decoration: none;
 	color: black;
 	padding: 20px 20px 20px 0px;
+	margin: auto;
 }
 ul li a:hover {
 	color: pink;
@@ -82,14 +91,74 @@ ul li {
 }
 
 h1 {
-	padding-top: 10px;
-	padding-left: 10px;
-	margin-top: 0px;
+	padding: 10px;
+	margin: 0;
+	background: lightblue;
 
 }
 
+h3 {
+	background: white;
+	padding: 10px;
+	margin: 0;
+}
+
+h4 {
+	background: white;
+	margin: 0;
+	padding: 5px;
+}
 
 
+input {
+	margin-left: 20px;
+	margin-right: 5px;
+}
+
+p {
+
+	padding: 4.5px;
+	
+}
+
+legend {
+	background: tomato;
+	color: silver;
+	border-style: solid;
+	border-radius: 10px;
+}
+
+#submit {
+	float: right;
+}
+
+
+#page-list-wrapper {
+	
+	justify-content: center;
+	padding: 5px;
+	margin-left: 26%;
+	list-style-type: none;
+
+}
+
+#page-list-wrapper a {
+	
+	text-align: center;
+	margin: auto;
+	float: center;
+
+}
+
+.form-wrapper {
+
+	background: white;
+
+}
+
+fieldset {
+	border-style: none;
+}
 
 
 
