@@ -4,7 +4,7 @@ html, body {
 	background: darkred;
 	margin: 0 auto 0 auto;
 	padding: 0;
-	height: 1020px;
+	height: 1520px;
 
 	@import url("https://use.typekit.net/xcx8ues.css");
 	font-family: poppins, sans-serif;
@@ -60,7 +60,7 @@ html, body {
 .footer-wrapper {
 	
 	background: tomato;	
-	position: absolute;
+	position: fixed;
 	width: 54.6%;
 	bottom: 0px;
 	display: table-cell;
@@ -78,8 +78,8 @@ html, body {
 #trademark {
 
 	font-size: 10px;
-	margin: 0px 0px 0px 575px;
-	padding: 5px 5px 5px 2px;
+	margin: 0px 0px 0px 600px;
+	padding: 0px 5px 0px 2px;
 	color: gray;
 	float: right;
 	text-align: right;
@@ -92,7 +92,7 @@ ul li a {
 	text-decoration: none;
 	color: black;
 	padding: 0px 10px 0px 0px;
-	margin: 0px auto;
+	margin: 10px;
 
 }
 ul li a:hover {
@@ -126,7 +126,7 @@ h3 {
 
 h4 {
 
-	padding: 10px;
+	padding: 5px;
 	margin: 0;
 
 }
@@ -173,11 +173,11 @@ p:hover {
 }
 
 
-#page-list-wrapper {
+.page-list-wrapper {
 	
 	text-align: center;
 	list-style-type: none;
-	margin-top: 170px;
+	margin-top: 57%;
 	background: lightyellow;
 	padding: 2px 5px 2px 5px;
 
