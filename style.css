@@ -122,10 +122,19 @@ p {
 }
 
 legend {
-	background: tomato;
+
+	background: black;
 	color: silver;
 	border-style: solid;
 	border-radius: 10px;
+
+}
+
+legend:hover {
+
+	background: lightyellow;
+	color: black;
+	
 }
 
 #submit {
@@ -157,10 +166,26 @@ legend {
 }
 
 fieldset {
+
 	border-style: none;
+
 }
 
+a {
 
+	color: black;
+	text-decoration: none;
+	
+	
+}
+
+h3:hover, h4:hover, form:hover{
+	background: lightyellow;
+}
+
+a:hover {
+	color: blue;
+}
 
 
 
