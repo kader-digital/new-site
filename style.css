@@ -5,7 +5,7 @@ html, body {
 	font-family: Arial;
 }
 .wrapper {
-	height: 1200px;
+	height: 100%;
 	border-style: none solid none solid;
 	border-width: 1px;
 	background: #a6f;
@@ -57,7 +57,11 @@ html, body {
 #trademark {
 
 	font-size: 10px;
-	float: right;
+	text-align: right;
+	margin-left: 370px;
+	color: gray;
+	opacity: 10%;
+	display: inline-block;
 	
 }
 
