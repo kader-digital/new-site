@@ -25,6 +25,14 @@ html, body {
 	
 }
 
+.donation-wrapper h3:hover {
+	background: lightgreen;
+}
+
+.main-wrapper h3:hover {
+	background: lightblue;
+}
+
 .header-wrapper {
 
 	background: orange;
@@ -67,12 +75,22 @@ html, body {
 
 }
 
+.footer-menu-wrapper ul li a {
+
+	opacity: 55%;
+	color: lightgrey;
+	font-size: 0.7%;
+	justify-content: space-around;
+	margin-right: 20px;
+	
+}
 
 #trademark {
 
 	font-size: 10px;
 	text-align: right;
 	margin-left: 370px;
+	padding: 5px;
 	color: gray;
 	opacity: 10%;
 	display: inline-block;
@@ -119,7 +137,7 @@ h3 {
 
 h4 {
 
-	background: white;
+	background: lightyellow;
 	margin: 0;
 	padding: 5px;
 
@@ -137,9 +155,12 @@ p {
 
 	padding: 4.5px;
 	text-indent: 10px;
-	background: snow;
-	border-radius: 4px;
+	background: lightyellow;
 	
+}
+
+p:hover {
+	background: white;
 }
 
 legend {
@@ -152,13 +173,6 @@ legend {
 	margin-top: 0px;
 	text-align: left;
 
-}
-
-legend:hover {
-
-	background: lightyellow;
-	color: black;
-	
 }
 
 #submit {
@@ -201,7 +215,7 @@ legend:hover {
 
 .form-wrapper {
 
-	background: pink;
+	background: lightpink;
 
 }
 
@@ -219,9 +233,9 @@ a {
 	
 }
 
-h3:hover, h4:hover, form:hover{
+h3:hover, h4:hover {
 
-	background: lightyellow;
+	background: white;
 
 }
 
