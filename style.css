@@ -1,8 +1,8 @@
 html, body {
 
 	width: 74%;
-	background: darkred;
-	margin: 0 auto 0 auto;
+	background: #fff;
+	margin: auto;
 	padding: 0;
 	height: 1520px;
 
@@ -17,7 +17,7 @@ html, body {
 	height: 100%;
 	border-style: none solid none solid;
 	border-width: 1px;
-	background: tomato;
+	background: #657;
 }
 
 .donation-wrapper {
@@ -47,13 +47,13 @@ html, body {
 
 .grid-wrapper {
 
-	opacity: 70%;
 	border-width: 2px;
-	padding: 0px 5px 0px 5px;
-	margin-bottom: 10px;
+	padding: 0px 0px 0px 0px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background: lightyellow;
 	margin-top: 10px;
 	grid-gap: 0.5em;
-	border-radius: 10px;
 	
 }
 
@@ -61,8 +61,9 @@ html, body {
 	
 	background: tomato;	
 	position: fixed;
-	width: 54.6%;
-	bottom: 0px;
+	width: 54.65%;
+	bottom: -10px;
+	height: 63px;
 	display: table-cell;
 
 }
@@ -119,25 +120,19 @@ h1 {
 h3 {
 
 	background: lightpink;
-	padding: 5px;
+	padding: 0px;
 	margin: 0px;
 
 }
 
 h4 {
 
-	padding: 5px;
+	padding: 0;
 	margin: 0;
 
 }
 
 
-input {
-
-	margin-left: 20px;
-	margin-right: 5px;
-
-}
 
 p {
 
@@ -147,37 +142,18 @@ p {
 	
 }
 
-p:hover {
-	background: white;
+.grid-header:nth-child(odd) {
+	background: salmon;
 }
-
-#submit {
-
-	background: white;
-	float: right;
-	margin-bottom: 5px;
-	margin-top: 2px;
-	padding-bottom: 5px;
-	border-style: outset;
-	border-width: 3px;
-
-}
-
-#submit:hover {
-
-	background: lightblue;
-	border-style: outset;
-	border-width: 3px;
-	border-color: deepskyblue;
-	
-}
-
 
 .page-list-wrapper {
 	
 	text-align: center;
 	list-style-type: none;
-	margin-top: 57%;
+	display: table-cell;
+	position: fixed;
+	width: 54.08%;
+	bottom: 51px;
 	background: lightyellow;
 	padding: 2px 5px 2px 5px;
 
@@ -212,6 +188,10 @@ a:hover {
 }
 
 .grid-header {
-	background: white;
+	background: #ddd;
+	width: 100%;
+	margin-left: 0;
+	padding-left: 0px;
 }
+
 
