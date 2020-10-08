@@ -1,4 +1,5 @@
 html, body {
+
 	width: 74%;
 	margin: 0 auto 0 auto;
 	padding: 0;
@@ -8,6 +9,7 @@ html, body {
 	font-family: poppins, sans-serif;
 	font-weight: 400;
 	font-style: normal;
+
 }
 .wrapper {
 
@@ -24,10 +26,13 @@ html, body {
 }
 
 .header-wrapper {
+
 	background: orange;
+
 }
 
 .main-wrapper {
+
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	background: salmon;
@@ -38,6 +43,7 @@ html, body {
 }
 
 .grid-wrapper {
+
 	opacity: 70%;
 	border-width: 2px;
 	padding: 10px;
@@ -75,22 +81,28 @@ html, body {
 
 
 ul li a {
+
 	text-decoration: none;
 	color: black;
 	padding: 20px 20px 20px 0px;
 	margin: auto;
+
 }
 ul li a:hover {
+	
 	color: pink;
 	opacity: 50%;
+
 }
 ul li {
+	
 	list-style-type: none;
 	display: inline-block;
 
 }
 
 h1 {
+
 	padding: 10px;
 	margin: 0;
 	background: lightsalmon;
@@ -98,21 +110,27 @@ h1 {
 }
 
 h3 {
+
 	background: lightpink;
 	padding: 10px;
 	margin: 0px;
+
 }
 
 h4 {
+
 	background: white;
 	margin: 0;
 	padding: 5px;
+
 }
 
 
 input {
+
 	margin-left: 20px;
 	margin-right: 5px;
+
 }
 
 p {
@@ -144,6 +162,7 @@ legend:hover {
 }
 
 #submit {
+
 	background: white;
 	float: right;
 	margin-bottom: 5px;
@@ -151,6 +170,7 @@ legend:hover {
 	padding-bottom: 5px;
 	border-style: outset;
 	border-width: 3px;
+
 }
 
 #submit:hover {
@@ -186,6 +206,7 @@ legend:hover {
 }
 
 fieldset {
+
 	border-style: none;
 
 }
@@ -199,11 +220,15 @@ a {
 }
 
 h3:hover, h4:hover, form:hover{
+
 	background: lightyellow;
+
 }
 
 a:hover {
+
 	color: blue;
+
 }
 
 
